@@ -1,0 +1,17 @@
+{
+  "name": "sorting-benchmark",
+  "version": "1.0.0",
+  "description": "Sorting algorithm benchmark in TypeScript",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "ts-node main.ts",
+    "run:file": "ts-node main.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
